@@ -13,3 +13,16 @@ Need of spring boot when we have Spring : Reduces Boilerplate Code and many pre 
 <img width="1775" height="770" alt="Screenshot 2026-04-19 122904" src="https://github.com/user-attachments/assets/0d1bc0a8-8a7b-47bf-8811-e40a997f8610" />
 
 Maven : A build Automation Tool and helps to manage the Dependencies
+
+"mvn package : used to generate jar file , which we can share with others" 
+
+Life cycle of maven : 
+validate - validate the project is correct and all necessary information is available
+compile - compile the source code of the project
+test - test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed
+package - take the compiled code and package it in its distributable format, such as a JAR.
+verify - run any checks on results of integration tests to ensure quality criteria are met
+install - install the package into the local repository, for use as a dependency in other projects locally
+deploy - done in the build environment, copies the final package to the remote repository for sharing with other developers and projects.
+
+For Details : https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Lifecycle_Reference
