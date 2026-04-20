@@ -26,3 +26,18 @@ install - install the package into the local repository, for use as a dependency
 deploy - done in the build environment, copies the final package to the remote repository for sharing with other developers and projects.
 
 For Details : https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Lifecycle_Reference
+
+Structure of Spring Boot Project :
+
+.mvn & .gitignore: The .mvn folder facilitates the use of the Maven Wrapper, while .gitignore ensures unnecessary files (like IDE-specific configurations or build artifacts) are not tracked in version control)
+
+src Directory: Divided into main (core application code) and test (unit tests). The main folder further separates java code from resources (e.g., application properties and static assets)
+
+pom.xml: Known as the Project Object Model, this file is the heart of a Maven project. It defines project dependencies, plugins, and configuration.
+
+Target & FAT JAR: When the project is packaged, a target folder is generated ,Executable JAR which bundles not just the compiled source code but also all necessary dependencies, allowing the application to run independently without an external server 
+
+>Main jar file contains all necessary dependencies and embeded tomcat server required to run the application.
+>The .jar.original file contains only your compiled source code (your classes and resources).
+
+Repackaging: The Spring Boot plugin automatically handles the creation of both an original JAR and the executable FAT JAR, a process known as repackaging. (As first it will create the .jar.original file and with that it will repackage the .jar file)
