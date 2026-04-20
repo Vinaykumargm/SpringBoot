@@ -1,5 +1,4 @@
 # SpringBoot
-Spring Boot from scratch to Advanced
 Spring Boot : A tool used to create a Standalone and production Grade Spring Application.
 
 Need of spring boot when we have Spring : Reduces Boilerplate Code and many pre configurations, and includes embeded tomcat server.
@@ -12,3 +11,5 @@ Need of spring boot when we have Spring : Reduces Boilerplate Code and many pre 
 <img width="1858" height="557" alt="Screenshot 2026-04-19 122810" src="https://github.com/user-attachments/assets/26f0afed-d55a-4a4d-98b1-efc8973a762d" />
 
 <img width="1775" height="770" alt="Screenshot 2026-04-19 122904" src="https://github.com/user-attachments/assets/0d1bc0a8-8a7b-47bf-8811-e40a997f8610" />
+
+Maven : A build Automation Tool and helps to manage the Dependencies
