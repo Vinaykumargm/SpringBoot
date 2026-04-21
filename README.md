@@ -41,3 +41,9 @@ Target & FAT JAR: When the project is packaged, a target folder is generated ,Ex
 >The .jar.original file contains only your compiled source code (your classes and resources).
 
 Repackaging: The Spring Boot plugin automatically handles the creation of both an original JAR and the executable FAT JAR, a process known as repackaging. (As first it will create the .jar.original file and with that it will repackage the .jar file)
+
+Working of Spring Boot :
+
+In traditional Java, we manually create objects using the new keyword. In Spring Boot, the IoC container manages object creation and lifecycle. We register classes as beans using annotations like @Component, and Spring injects them wherever needed using dependency injection (@Autowired).
+
+The @SpringBootApplication annotation is a combination of @Configuration, @EnableAutoConfiguration, and @ComponentScan, which together enable automatic configuration, bean creation, and component scanning in the application
