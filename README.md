@@ -47,3 +47,36 @@ Working of Spring Boot :
 In traditional Java, we manually create objects using the new keyword. In Spring Boot, the IoC container manages object creation and lifecycle. We register classes as beans using annotations like @Component, and Spring injects them wherever needed using dependency injection (@Autowired).
 
 The @SpringBootApplication annotation is a combination of @Configuration, @EnableAutoConfiguration, and @ComponentScan, which together enable automatic configuration, bean creation, and component scanning in the application
+
+
+Spring Security :
+
+<img width="549" height="173" alt="image" src="https://github.com/user-attachments/assets/d64b85e1-8d65-412a-89e7-0cd5f6a5bdc1" />
+
+Authetication : process of verifying a user identification (username & password)
+Authorization : 
+<img width="559" height="195" alt="image" src="https://github.com/user-attachments/assets/5f40005a-30d1-4687-867c-7d352ca7774a" />
+
+<img width="1866" height="591" alt="Screenshot 2026-04-23 172020" src="https://github.com/user-attachments/assets/4e593a50-c4db-4c28-b5e8-7567141fbe6d" />
+
+By default spring security uses Basic Http Authentication.
+
+<img width="585" height="210" alt="image" src="https://github.com/user-attachments/assets/0522a5d9-48c6-4812-9f62-5b9a4f029d97" />
+
+<img width="495" height="170" alt="image" src="https://github.com/user-attachments/assets/23dd1680-c430-4fb0-8b48-1d7b1195d7b5" />
+
+<img width="482" height="163" alt="image" src="https://github.com/user-attachments/assets/213b8631-7e6a-4d7a-bdfa-7f95b76ff529" />
+
+we can also explicitly define user name and password in the application.properties.
+
+spring.security.user.name=username
+spring.security.user.password=password
+
+<img width="437" height="221" alt="image" src="https://github.com/user-attachments/assets/1ec0f8fc-4932-446c-af61-ccc007abc027" />
+
+<img width="484" height="220" alt="image" src="https://github.com/user-attachments/assets/f37dc47e-4e0d-42c0-b5c7-191ce6b4cb18" />
+
+<img width="556" height="214" alt="image" src="https://github.com/user-attachments/assets/4f4914c1-e9cb-457a-8f2e-4315a1f43ada" />
+
+
+
