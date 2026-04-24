@@ -74,9 +74,19 @@ spring.security.user.password=password
 
 <img width="437" height="221" alt="image" src="https://github.com/user-attachments/assets/1ec0f8fc-4932-446c-af61-ccc007abc027" />
 
+<img width="571" height="197" alt="image" src="https://github.com/user-attachments/assets/3a74f23d-129c-4d08-b565-700e668143c7" />
+
+
 <img width="484" height="220" alt="image" src="https://github.com/user-attachments/assets/f37dc47e-4e0d-42c0-b5c7-191ce6b4cb18" />
 
 <img width="556" height="214" alt="image" src="https://github.com/user-attachments/assets/4f4914c1-e9cb-457a-8f2e-4315a1f43ada" />
 
+<img width="1170" height="563" alt="image" src="https://github.com/user-attachments/assets/3f6a2061-a639-4f79-94ef-7475f1299579" />
 
+<img width="484" height="205" alt="image" src="https://github.com/user-attachments/assets/3986555a-6b98-4696-8124-699115faa2c1" />
+<img width="585" height="220" alt="image" src="https://github.com/user-attachments/assets/6bbbb048-e3af-45f2-a663-4b377467b30b" />
+<img width="1859" height="896" alt="Screenshot 2026-04-24 174543" src="https://github.com/user-attachments/assets/0e0b40bc-1d95-4812-b85a-e01b64c175d3" />
 
+To authenticate users based on their credentials stored in the database.
+
+<img width="1886" height="537" alt="Screenshot 2026-04-24 175458" src="https://github.com/user-attachments/assets/3742c672-3137-45ac-bc0c-d6806ee44901" />
